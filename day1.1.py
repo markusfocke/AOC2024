@@ -27,6 +27,3 @@ with open("AOC_day1_input.txt", "r") as file:
         sumofcalvals = sumofcalvals + twodigitnumber(line)
 
 print(sumofcalvals)
-   
-
-
