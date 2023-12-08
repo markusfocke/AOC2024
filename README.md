@@ -7,4 +7,4 @@ Proudly erstellt mit viel Frustrationstoleranz und dem [Python Grundlagenkurs](h
 Unfinished business. Vielleicht hole ich das am WE noch nach
 
 ## Notes to day 8
-Ich war so stolz auf meine Lösung. Leider wohl etwas rechenintensiv, dass mein MBP M1 auch nach 2h keine Lösung gebracht hat. Ohne Christian wäre das hier ein grauer Stern. Der Punkt geht also eigentlicht an ihn.
+Ich war so stolz auf meine Lösung (day8.21.py). Leider wohl etwas rechenintensiv, dass mein MBP M1 auch nach 2h keine Lösung gebracht hat. Ohne Christian wäre das hier ein grauer Stern. Der Punkt geht also eigentlicht an ihn.
