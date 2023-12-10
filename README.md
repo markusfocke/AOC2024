@@ -10,6 +10,10 @@ Unfinished business. Vielleicht hole ich das am WE noch nach
 Ich war so stolz auf meine Lösung (day8.21.py). Leider wohl etwas rechenintensiv, dass mein MBP M1 auch nach 2h keine Lösung gebracht hat. Ohne Christian wäre das hier ein grauer Stern. Der Punkt geht also eigentlich an ihn.
 Anmerkung zur Anmerkung: Wenn man die Dauer der Berechnung auf Basis der 6 Schritte hochrechnet, dauert die Rechenzeit 8,8 Jahre :-o  
 
-
 ## Notes to day 9
 In der ursprünglichen Lösung habe ich die While Schleife mit der Bedingung abgebrochen, dass die Summe aller Ableitungen = 0 sei. Leider gibt es eine Zeile, bei der die Summe der Ableitungen 0 ist, obwohl nicht alle Werte 0 sind z.B. [-14, 7, 7]. Hat mich gut 90 min gekostet, das zu finden. Oh mann...
+
+## Notes to day 10
+Teil 1 ist sicherlich das haesslichste Stück Code meiner bisherigen AOC. Aber funktioniert.
+Teil 2 habe ich nach wilder Recherche den flood-fill Algorithmus entdeckt und angewendet. Hat mir ein paar schöne Visualisierungs-Snippets gebracht. Leider hat die Aufgabenstellung für dieses Vorgehen ein besonderes Schmankerl: Das Tier kann sich zwischen den Rohren durchquetschen. Damit ist das wohl ein #fail... :-( 
+Schade eigentlich.
