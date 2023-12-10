@@ -1,4 +1,5 @@
 # AOC, Day 10, Teil 2
+# UNSUCCESSFULL, der floodfill funktioniert nicht mit dem squeeze through :-(
 
 import numpy as np
 
