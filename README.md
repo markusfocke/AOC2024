@@ -17,3 +17,6 @@ In der ursprünglichen Lösung habe ich die While Schleife mit der Bedingung abg
 Teil 1 ist sicherlich das haesslichste Stück Code meiner bisherigen AOC. Aber funktioniert.
 Teil 2 habe ich nach wilder Recherche den flood-fill Algorithmus entdeckt und angewendet. Hat mir ein paar schöne Visualisierungs-Snippets gebracht. Leider hat die Aufgabenstellung für dieses Vorgehen ein besonderes Schmankerl: Das Tier kann sich zwischen den Rohren durchquetschen. Damit ist das wohl ein #fail... :-( 
 Schade eigentlich.
+
+## Notes to day 11
+Gut angefangen heute, Teil 1 ging verhältnismäßig gradlinig und schnell (im Rahmen der begrenzten Möglichkditen). Teil 2 war leider totales Desaster. Habe tolle arrays gebaut und das ging auch richtig gut. Leider war das Ergebnis aber konstant um 10 niedriger als das Beispiel und die vorgehende Lösung. Habe dann 2h gebraucht, um festzustellen, dass der Ansatz der Manhattan Distance nicht mit meinen Werten in der Matrix funktioniert (oder ich habe es einfach nicht zum Funktionieren gebracht). Was für ein Scheiß!
