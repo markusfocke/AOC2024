@@ -20,3 +20,6 @@ Schade eigentlich.
 
 ## Notes to day 11
 Gut angefangen heute, Teil 1 ging verhältnismäßig gradlinig und schnell (im Rahmen der begrenzten Möglichkditen). Teil 2 war leider totales Desaster. Habe tolle arrays gebaut und das ging auch richtig gut. Leider war das Ergebnis aber konstant um 10 niedriger als das Beispiel und die vorgehende Lösung. Habe dann 2h gebraucht, um festzustellen, dass der Ansatz der Manhattan Distance nicht mit meinen Werten in der Matrix funktioniert (oder ich habe es einfach nicht zum Funktionieren gebracht). Was für ein Scheiß!
+
+## Notes to day 14
+Eigentlich ganz prima gelaufen. Musste den ersten Teil 2 Mal bauen, der erste Ansatz mit numpy arrays war zu kompliziert (für meinen Kopf). Also neu und einfacher gestrickt. Habe auch eine funktionierende Lösung für Teil 2 gebaut, bin dann aber leider an der Milliarde Cycles gescheitert - bzw. an den rund 78h Laufzeit. Leider hat sich meine Funktion auch nicht eingependelt, so dass ich die Schätzmethodik nicht anwenden konnte. Nun gut, in Summe bin ich happy, ein Teilstern für Teil 2 wäre schön gewesen :-)
