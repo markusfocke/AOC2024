@@ -23,3 +23,6 @@ Gut angefangen heute, Teil 1 ging verhältnismäßig gradlinig und schnell (im R
 
 ## Notes to day 14
 Eigentlich ganz prima gelaufen. Musste den ersten Teil 2 Mal bauen, der erste Ansatz mit numpy arrays war zu kompliziert (für meinen Kopf). Also neu und einfacher gestrickt. Habe auch eine funktionierende Lösung für Teil 2 gebaut, bin dann aber leider an der Milliarde Cycles gescheitert - bzw. an den rund 78h Laufzeit. Leider hat sich meine Funktion auch nicht eingependelt, so dass ich die Schätzmethodik nicht anwenden konnte. Nun gut, in Summe bin ich happy, ein Teilstern für Teil 2 wäre schön gewesen :-)
+
+## Notes to day 15
+Gelernt, mit enumerate von Listen umzugehen. Sehr schön. Benutze ich ab jetzt öfters.
