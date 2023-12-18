@@ -29,5 +29,5 @@ Gelernt, mit enumerate von Listen umzugehen. Sehr schön. Benutze ich ab jetzt �
 
 ## Notes to day 18
 Eigentlich ganz smooth gelaufen: die Baggerbewegungen ablaufen und am Ende das ganze mit Flood Fill füllen. Leider kommt der Floodfill an die maximale Anzahl an rekursionen bei der Größe der Matrix. Musste völlig ehrlos ChatGPT zu Hilfe nehmen, um den Floodfill iterativ aufzubauen. Shame shame... 
-Habe mich dann noch an den zweiten Teil gemacht. Allerdings habe ich die Rechnung ohne meinen Speicher gemacht. Erzeugt immer Dead Kernel. Komisch, die Matrix ist lediglich 10787185 x 16142015 groß...
+Habe mich dann noch an den zweiten Teil gemacht. Allerdings habe ich die Rechnung ohne meinen Speicher gemacht. Erzeugt immer Dead Kernel. Komisch, die Matrix ist lediglich 10787185 x 16142015 groß... Egal. Habe heute ne Menge gelernt.  
 
