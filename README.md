@@ -26,3 +26,6 @@ Eigentlich ganz prima gelaufen. Musste den ersten Teil 2 Mal bauen, der erste An
 
 ## Notes to day 15
 Gelernt, mit enumerate von Listen umzugehen. Sehr schön. Benutze ich ab jetzt öfters.
+
+## Notes to day 18
+Eigentlich ganz smooth gelaufen: die Baggerbewegungen ablaufen und am Ende das ganze mit Flood Fill füllen. Leider kommt der Floodfill an die maximale Anzahl an rekursionen bei der Größe der Matrix. Musste völlig ehrlos ChatGPT zu Hilfe nehmen, um den Floodfill iterativ aufzubauen. Shame shame...
