@@ -1,5 +1,5 @@
 ### Teil 1, Beispiel tut
-### Puzzel Ergebnis ist "too low"
+### UNSUCCESSFUL! Workflows mit 2 gleichen Materialtypen können nicht verarbeitet werden!
 
 
 def einlesen(filename):
