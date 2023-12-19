@@ -1,4 +1,5 @@
 ### Teil 1, Beispiel tut
+### Puzzel Ergebnis ist "too low"
 
 
 def einlesen(filename):
