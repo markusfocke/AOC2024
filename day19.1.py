@@ -1,4 +1,4 @@
-### zwischenstand wegen Jupyiterproblem
+### Teil 1, Beispiel tut
 
 
 def einlesen(filename):
@@ -79,18 +79,24 @@ def material_in_wf(workflow, materialtyp, matval):
     """
     enthalten = False
     newf = ""
+    org_mattyp = ""
+    org_mattyp = materialtyp    
+    
     if materialtyp in workflow:
+#        print(materialtyp, ":", "matval", matval, workflow[materialtyp][0], "workflow", workflow[materialtyp][1])
+
         if workflow[materialtyp][0] == "<":
-            enthalten = True
             if matval < workflow[materialtyp][1]:
                 newf = workflow[materialtyp][2]
+                enthalten = True
+
             else:
                 materialtyp = "xxxx"
                 newf = workflow[materialtyp][2]
         elif workflow[materialtyp][0] == ">":
-            enthalten = True
             if matval > workflow[materialtyp][1]:
                 newf = workflow[materialtyp][2]
+                enthalten = True
             else:
                 materialtyp = "xxxx"
                 newf = workflow[materialtyp][2]
@@ -98,12 +104,14 @@ def material_in_wf(workflow, materialtyp, matval):
     else:
         materialtyp = "xxxx"
         newf = workflow[materialtyp][2]
+    
+    print("  ergebnis von", workflow, org_mattyp, matval, ":", newf)
 
     return newf, enthalten
 
 
 
-file = "AOC_day19_input_bsp.txt"
+file = "AOC_day19_input.txt"
 workflows_inp, materials_inp = einlesen(file)
 workflow_dic = workflow_dic_aus_liste(workflows_inp)
 materials = []
@@ -111,19 +119,45 @@ for line in materials_inp:
     materials.append(part_read(line))
 workflows = workflow_dic
 
-print("workflows", workflows)
-print(" ")
-print("materials", materials)
-print(" ")
+#print("workflows", workflows)
+#print(" ")
+#print("materials", materials)
+#print(" ")
 
+t_val = 0
 
 for line in materials:
+
     wf_no = "in"
     
-    for key in line:
-        nwf_no, enth = material_in_wf(workflows[wf_no], key, line[key])
-        if enth == True:
-            wf_no = nwf_no
-        print(key, line[key], wf_no)
+    while True:
+        key = ""
+        print("material", line)
+        print("workflow", wf_no, workflows[wf_no])
+
+        for key in line:
+            enth = False
+            nwf_no, enth = material_in_wf(workflows[wf_no], key, line[key])
+            if enth == True:
+                break        
+        wf_no = nwf_no
+        if nwf_no == "A":
+            l_val = 0
+            for key in line:
+                l_val += line[key]
+            t_val = t_val + l_val
+            print("ACCEPTED", l_val, "für", line)
+            print(" ")
+            break
+        elif nwf_no == "R":
+            print("REJECTED")
+            print(" ")
+            break
+        print("nächster Workflow", wf_no)
+        print(" ")
+
+#    print(key, line[key], nwf_no, enth)
+    print(" ")
 
 # wf_no = neue WF no wenn enthalten = true
+print("total value", t_val)
