@@ -4,7 +4,7 @@ Hier meine unbeholfenen Lösungen für den diesjährigen [AoC](https://adventofc
 Proudly erstellt mit viel Frustrationstoleranz und dem [Python Grundlagenkurs](https://open.sap.com/courses/python1) von [Stephan](https://github.com/stjaco62) & [Christian](https://drumm.sh).
 
 ## Notes to day 7
-Unfinished business. Vielleicht hole ich das am WE noch nach
+Unfinished business. Nachgeholt am 20.12., weil ich das heutige Puzzle nicht verstehe. Habe zum ersten Mal eine Liste mit einer Funktion sortiert. Danach Multisort angewendet. Wäre im Nachgang wahrscheinlich in einem Schwung gegangen. Egal. Kleiner Kniff: Habe den internen Sortiervorgang der Karten nach ihrem Kartenwert gemacht (sonst ist A ja kleiner als K). Damit ich 13 Karten handlen kann, habe ich die Werte als hex abgespeichert. 
 
 ## Notes to day 8
 Ich war so stolz auf meine Lösung (day8.21.py). Leider wohl etwas rechenintensiv, dass mein MBP M1 auch nach 2h keine Lösung gebracht hat. Ohne Christian wäre das hier ein grauer Stern. Der Punkt geht also eigentlich an ihn.
