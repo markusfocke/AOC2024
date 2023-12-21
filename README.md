@@ -33,3 +33,9 @@ Habe mich dann noch an den zweiten Teil gemacht. Allerdings habe ich die Rechnun
 
 ## Notes to day 19
 Not my puzzle today. Tierisch aufwändig über eine Menge Dictionaries gebaut. Das Beispielpuzzle funktioniert und liefert das richtige Ergebis. Das richtige Puzzle enthält aber mehrere Werte für einen Materialtyp, so dass ich den Materialtyp nicht als Schlüssel für das Dictionary verwenden kann. Was für ein Ärger. Habe dann ChatGPT verwendet, um mein Dictionary auf Tuples umzubauen. Jetzt bekomme ich ein anderes Ergebnis raus, diesmal zu hoch... wenn du ein totes Pferd reitest, steig ab. Für Documentationszwecke habe ich die zweite Lösung als day19.2 hochgeladen, auch wenn es sich um Teil 1 handelt. Habe noch eine dritte Version erstellt, diesmal mit eval. Tut super, führt aber leider weiterhin nicht zum richtigen Puzzle Ergebnis.
+
+## Note tdo day 20
+Not my piece of cake. Punching over my weight. Ich habe nichtmal ein Gefühl dafür, was hier zu tun ist. Habe stattdessen Tag 7 nachgeholt :-)
+
+## Note to day 21
+Ich hatte ja schon befürchtet, die AOC hätte sich jetzt vollständig aus meinem Niveau verabschiedet. Teil 1 ging aber heute. Happy.
