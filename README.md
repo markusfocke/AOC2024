@@ -41,4 +41,4 @@ Not my piece of cake. Punching over my weight. Ich habe nichtmal ein Gefühl daf
 Ich hatte ja schon befürchtet, die AOC hätte sich jetzt vollständig aus meinem Niveau verabschiedet. Teil 1 ging aber heute. Happy.
 
 ## Note to day 22
-Ist mir zu wild. 3D Arrays bilden schaffe ich heute nicht. Habe daher nochmal die offenen Sterne vorn angefangen. Teil 3.2 sollte schnell gehen - gings natürlich erstmal nicht...
+Ist mir zu wild. 3D Arrays bilden schaffe ich heute nicht. Habe daher nochmal die offenen Sterne vorn angefangen. Teil 3.2 sollte schnell gehen - gings natürlich erstmal nicht... aber immerhin gelöst. Ganz im Gegenteil zu Teil 5.2. Der erschien mir erst einfach, bis ich mal wieder an der Laufzeit gescheitert bin. Prognose 182h war mir zu lang. Nächstes Jahr sollte ich mir mal das mit dem Caching anschauen.
