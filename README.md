@@ -39,3 +39,6 @@ Not my piece of cake. Punching over my weight. Ich habe nichtmal ein Gefühl daf
 
 ## Note to day 21
 Ich hatte ja schon befürchtet, die AOC hätte sich jetzt vollständig aus meinem Niveau verabschiedet. Teil 1 ging aber heute. Happy.
+
+## Note to day 22
+Ist mir zu wild. 3D Arrays bilden schaffe ich heute nicht. Habe daher nochmal die offenen Sterne vorn angefangen. Teil 3.2 sollte schnell gehen - gings natürlich erstmal nicht...
