@@ -27,6 +27,9 @@ Eigentlich ganz prima gelaufen. Musste den ersten Teil 2 Mal bauen, der erste An
 ## Notes to day 15
 Gelernt, mit enumerate von Listen umzugehen. Sehr schön. Benutze ich ab jetzt öfters.
 
+## Notes to day 16
+Mit np.arrays begonnen. Entstandene Lösung überkomplex... funktioniert schon mit dem Beispiel nicht. Umgebaut auf Listen. Läuft sich immer tot. Am 23.12. nochmal neu erstellt. Quasi von Null angefangen. Beispiel tut. Puzzel läuft sich wieder tot, abbruch bei 100.000 Durchläufen eingebaut. Sieht gut aus. Antwort ist aber "too low" :-( Kontrollmatrix gebaut und händisch geprüft. Keine Bugs ersichtlich. Mein Ergebnis.txt durch ChatGPT zählen lassen. Anzahl korrekt ermittelt. Scheint doch ein Logikfehler drin zu sein. So ein Dreck. 
+
 ## Notes to day 18
 Eigentlich ganz smooth gelaufen: die Baggerbewegungen ablaufen und am Ende das ganze mit Flood Fill füllen. Leider kommt der Floodfill an die maximale Anzahl an rekursionen bei der Größe der Matrix. Musste völlig ehrlos ChatGPT zu Hilfe nehmen, um den Floodfill iterativ aufzubauen. Shame shame... 
 Habe mich dann noch an den zweiten Teil gemacht. Allerdings habe ich die Rechnung ohne meinen Speicher gemacht. Erzeugt immer Dead Kernel. Komisch, die Matrix ist lediglich 10787185 x 16142015 groß... Egal. Habe heute ne Menge gelernt.  
