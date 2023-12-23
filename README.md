@@ -45,3 +45,6 @@ Ich hatte ja schon befürchtet, die AOC hätte sich jetzt vollständig aus meine
 
 ## Note to day 22
 Ist mir zu wild. 3D Arrays bilden schaffe ich heute nicht. Habe daher nochmal die offenen Sterne vorn angefangen. Teil 3.2 sollte schnell gehen - gings natürlich erstmal nicht... aber immerhin gelöst. Ganz im Gegenteil zu Teil 5.2. Der erschien mir erst einfach, bis ich mal wieder an der Laufzeit gescheitert bin. Prognose 182h war mir zu lang. Nächstes Jahr sollte ich mir mal das mit dem Caching anschauen.
+
+## Note to day 23
+Nicht mal versucht. Habe gedacht, ich mache lieber "alte, offene" Puzzle. Habe daher Tag 16 gemacht. Hätte ich aber wohl lassen können... no star for me today
