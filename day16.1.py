@@ -1,5 +1,5 @@
 # Teil 1
-# Unsuccessfull, "too low"
+# Unsuccessful, "too low"
 
 file = "AOC_day16_input.txt"
 document = []
