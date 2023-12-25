@@ -1,5 +1,5 @@
 # Teil 1
-# Successful!!! yeah! in ca. 4 iterationen... 
+# Successful!!!
 
 file = "AOC_day16_input.txt"
 document = []
