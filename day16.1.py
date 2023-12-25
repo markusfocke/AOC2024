@@ -1,5 +1,6 @@
 # Teil 1
 # Successful!!!
+# schön ist unten auch die Ausgabe mit der Kontrollmatrix
 
 file = "AOC_day16_input.txt"
 document = []
