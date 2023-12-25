@@ -1,5 +1,5 @@
 # Teil 1
-# Unsuccessful, "too low"
+# Successful!!! yeah! in ca. 4 iterationen... 
 
 file = "AOC_day16_input.txt"
 document = []
@@ -97,7 +97,15 @@ def count_energized_tiles(matrix):
         t_val = t_val + l_val
     
     return t_val
+
+def beam_splitten(pos, vektor):
     
+    if pos in pos_liste and dir_liste[pos_liste.index(pos)] == vektor:
+        hdj = 1
+    else:
+        pos_liste.append(pos)    #aktuelle position in die pos_liste eintragn
+        dir_liste.append(vektor) #zugehörigen vektor in die Ricthungsliste eintragen
+        
 
 def get_next_direction(pos, direction):
     
@@ -114,8 +122,7 @@ def get_next_direction(pos, direction):
             vektor = "D"
         elif zeichen == "|":
             vektor = "D" #vektor für den neuen Beam
-            pos_liste.append(pos)    #aktuelle position in die pos_liste eintragn
-            dir_liste.append(vektor) #zugehörigen vektor in die Ricthungsliste eintragen
+            beam_splitten(pos, vektor)
             vektor = "U" #vektor für den "alten" beam
             
     elif direction == "L":         
@@ -125,8 +132,7 @@ def get_next_direction(pos, direction):
             vektor = "U"
         elif zeichen == "|":
             vektor = "D"
-            pos_liste.append(pos)    #aktuelle position in die pos_liste eintragn
-            dir_liste.append(vektor) #zugehörigen vektor in die Ricthungsliste eintragen
+            beam_splitten(pos, vektor)
             vektor = "U" #vektor für den "alten" beam
     
     elif direction == "D":
@@ -136,8 +142,7 @@ def get_next_direction(pos, direction):
             vektor = "R"
         elif zeichen == "-":
             vektor = "R"
-            pos_liste.append(pos)    #aktuelle position in die pos_liste eintragn
-            dir_liste.append(vektor) #zugehörigen vektor in die Ricthungsliste eintragen
+            beam_splitten(pos, vektor)
             vektor = "L" #vektor für den "alten" beam
 
     elif direction == "U":
@@ -147,8 +152,7 @@ def get_next_direction(pos, direction):
             vektor = "L"
         elif zeichen == "-":
             vektor = "R"
-            pos_liste.append(pos)    #aktuelle position in die pos_liste eintragn
-            dir_liste.append(vektor) #zugehörigen vektor in die Ricthungsliste eintragen
+            beam_splitten(pos, vektor)
             vektor = "L" #vektor für den "alten" beam
             
     new_direction = vektor
@@ -180,29 +184,24 @@ dir_liste.append(start_dir)
 # schaue in die POS, DIR und ermittle die nächste nDIR
 # dann walk POS, nDir
 
-abbruch_cycles = 500000
+abbruch_cycles = 1000
 
 i = 0 
+ze_count = 0
+
 for item in pos_liste:
     # beide listen lesen für den nächsten Beam
     row, col = item
     pos = item
     drx = dir_liste[i]
-#    print("jetzt kommt item", pos)
     ze = 0
-    ze_count = 0
     
     while True:
             
-#            if ze%10 == 0:
-#                print("Cycle", i, "Pos", item, "durchlauf", ze)
-#            print("pos", pos, "row", row, "col", col, "dir", drx)
             energize(pos)  # im Ergebnisdokument die alte Position markieren
             
             n_drx = get_next_direction(pos, drx)   #ermittle mir zur position die Richtung
-#            print("new direction", n_drx)
             n_pos = walk(pos, n_drx) # gehe in diese Richtung
-#            print("new position after walk", n_pos)
             
             # position und richtung auf die neuen Werte setzen
             drx = n_drx
@@ -212,16 +211,13 @@ for item in pos_liste:
             ze +=1
             
             if row < 0 or row >= max_rows or col < 0 or col >= max_cols:
-#                print("Und raus aus der Matrix für", item)
-#                print(" ")
                 break
             
-            # print("pos", pos, "row", row, "col", col, "dir", drx)
             energize(pos)  # im Ergebnisdokument die neue Position markieren
             
             if ze > abbruch_cycles:
+                ze_count += 1
                 print("-->", abbruch_cycles, "erreicht")
-                ze_count = ze_count + 1
                 break
     
     i += 1
@@ -238,7 +234,7 @@ print("Energized Tiles:", count_energized_tiles(erg_document))
 print("anzahl abbrüche innere Schleife", ze_count)
 
 print(" ")
-print("Kontrollmatrix")
+#print("Kontrollmatrix")
 kontroll_matrix = merge_matrices(document, erg_document)
 #print_field(kontroll_matrix)
 
